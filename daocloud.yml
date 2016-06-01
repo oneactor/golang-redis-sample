@@ -6,7 +6,9 @@ services:
 # using default docker-link env
 env:
   - REDIS_PORT_6379_TCP_PROTO = "tcp"
-  - REDIS_PASSWORD = ""
+  - REDIS_PORT_6379_TCP_ADDR = "10.10.189.180"
+  - REDIS_PORT_6379_TCP_PORT = "53610"
+  - REDIS_PASSWORD = "lmfBjBUfV2Ru"
 
 install:
   - sudo apt-get update
